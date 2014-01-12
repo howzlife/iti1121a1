@@ -14,13 +14,13 @@ public class StudentInfo {
 
     public static void display() {
 
-	System.out.println("************************************************************");
-	System.out.println("*                 Author: William Pearson                  *");
-	System.out.println("*                 Student number: 7204884                  *");
-	System.out.println("*                     Course: ITI1121                      *");
-	System.out.println("*                      Assignment: 1                       *");
-	System.out.println("************************************************************");
-	System.out.println();
+ System.out.println("*******************************************************************");
+ System.out.println("*                 Authors: William Pearson, Nicolas Dubus         *");
+ System.out.println("*                     Student number: 7204884, 3811637            *");
+ System.out.println("*                            Course: ITI1121                      *");
+ System.out.println("*                              Assignment: 1                      *");
+ System.out.println("*******************************************************************");
+ System.out.println();
 
     }
 
