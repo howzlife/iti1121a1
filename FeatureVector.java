@@ -8,6 +8,7 @@ class FeatureVector {
     private static boolean verbose = false;
 
     //Constructors
+
     //Constructor with size element
     public FeatureVector(String name, int size) {
 		this.name = name;
@@ -134,7 +135,7 @@ class FeatureVector {
 		return true;
 	    }
 
-	    //setVerbose method, determins whether or not we will allow a string to be returned when toString is called
+	//setVerbose method, determins whether or not we will allow a string to be returned when toString is called
 	    public static void setVerbose(boolean value) {
 		FeatureVector.verbose = value;
     }

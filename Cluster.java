@@ -77,6 +77,7 @@ class Cluster {
 		return variance;
     }
 
+    //toString method - returns a string with this object's information
     public String toString() {
 
 		String str = "Cluster: {";
