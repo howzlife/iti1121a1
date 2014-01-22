@@ -59,7 +59,7 @@ class FeatureVector {
      
     //copy method, makes a hard copy of this featureVector object. 
 
-    //NOTE - IS THIS MAKING A HARD COPY? 
+    //NOTE - IS THIS MAKING A DEEP jCOPY? 
     public FeatureVector copy() {
 		FeatureVector fv = new FeatureVector(this.name, this.features);
 		return fv;
